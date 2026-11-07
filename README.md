@@ -20,8 +20,11 @@ This API extracts the article from the link. And returns the following details a
 - @extractus/article-extractor version "^8.0.20"
 
 This API was hosted locally and the port used is 3000. In order to use it:
-- After getting the files, go to any CLI like BASH CLI and type "node index.js", you will se it shows the message "index.js Listening on Port 3000".
-- Then, after that go to the browser and type: "http:localhost:3000/extract?articleUrl=[URL]". Here in [URL], type the input article url.
+- After getting the files, go to any CLI like BASH CLI and type "node index.js", you will se it shows the message 
+                                                  "index.js Listening on Port 3000".
+- Then, after that go to the browser and type:
+                            "**http:localhost:3000/extract?articleUrl=[URL]**".
+Here in [URL], type the input article url.
 - And thus, you will get information about that article.
 - If the article is not accessible, it will show the request incomplete message.
 
